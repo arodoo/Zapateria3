@@ -34,3 +34,8 @@ Route::group(['prefix' => 'landing'], function () {
     Route::get('/index', [App\Http\Controllers\LandingController::class, 'index']) -> name('landing.index');
     Route::get('/contacto', [App\Http\Controllers\LandingController::class, 'contacto']) -> name('landing.contacto');
 });
+
+
+    
+//Route::get('/categorias', [App\Http\Controllers\Admin\AdminController::class, 'categoria'])->name('categorias');
+ 

@@ -319,15 +319,22 @@ return [
         ],
         [
             'text' => 'Productos',
-            'route'  => 'home',
+            //'route'  => '/admin/procutcs/productos',
             'icon' => 'fas fa-fw fa-bars'
         ],
         [
             'text' => 'Categorias',
-            'route'  => 'home',
+            //'route'  => 'categorias',
+            'url' => '/admin/category/categorias',
             'icon' => 'fas fa-fw fa-folder'
         ],
-/*
+        [
+            'text' => 'Usuarios',
+            'url' => '/admin/users/usuarios',
+            //'route'  => 'usuarios',
+            'icon' => 'fas fa-fw fa-folder'
+        ],
+        /*
          [
             'text' => 'blog',
             'url'  => 'admin/blog',
